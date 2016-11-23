@@ -16,7 +16,7 @@ module.exports = {
         "jsx-a11y/anchor-has-content": 0,
         
         // https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/click-events-have-key-events.md
-        "jsx-a11y/click-events-have-key-events": 1,
+        "jsx-a11y/click-events-have-key-events": 0,
 
         // Require <img> to have a non-empty `alt` prop, or role="presentation"
         // https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/img-uses-alt.md
