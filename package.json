@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-nfl",
-  "version": "10.0.0",
+  "version": "11.0.0",
   "description": "NFL's ESLint config",
   "main": "index.js",
   "scripts": {
@@ -30,7 +30,7 @@
     "cz-conventional-changelog": "^1.1.5",
     "eslint": "^2.8.0",
     "eslint-plugin-import": "^1.5.0",
-    "eslint-plugin-jsx-a11y": "^1.2.2",
+    "eslint-plugin-jsx-a11y": "^3.0.1",
     "eslint-plugin-mocha": "^2.2.0",
     "eslint-plugin-react": "^5.0.1",
     "parallelshell": "^2.0.0",
