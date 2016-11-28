@@ -20,9 +20,9 @@ module.exports = {
 
         // Require <img> to have a non-empty `alt` prop, or role="presentation"
         // https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/img-uses-alt.md
-        "jsx-a11y/img-has-alt": [ 1, {
-            "components": ["Image", "Thumbnail"],
-          }],
+        "jsx-a11y/img-has-alt": [1, {
+            "components": ["Image", "Thumbnail"]
+        }],
 
         // Prevent img alt text from containing redundant words like "image", "picture", or "photo"
         // https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/redundant-alt.md
