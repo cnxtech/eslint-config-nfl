@@ -1,3 +1,14 @@
+<a name="11.0.0"></a>
+# [11.0.0](https://github.com/nfl/eslint-config/compare/10.0.0...v11.0.0) (2016-12-02)
+
+
+### Bug Fixes
+
+* Fix repo URL in package.json ([fd4e94](https://github.com/nfl/eslint-config/commit/fd4e94))
+* Upgraded packages ([96a904](https://github.com/nfl/eslint-config/commit/96a904))
+
+
+
 <a name="10.0.0"></a>
 # [10.0.0](https://github.com/nfl/eslint-config/compare/9.1.0...v10.0.0) (2016-08-19)
 
