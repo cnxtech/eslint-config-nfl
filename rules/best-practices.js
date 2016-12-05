@@ -118,7 +118,7 @@ module.exports = {
         "no-useless-call": 0,
         // disallow unnecessary string escaping
         // http://eslint.org/docs/rules/no-useless-escape
-        "no-useless-escape": 2,
+        "no-useless-escape": 0,
         // disallow use of void operator
         "no-void": 1,
         // disallow usage of configurable warning terms in comments: e.g. todo
