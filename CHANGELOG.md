@@ -1,3 +1,12 @@
+<a name="11.1.0"></a>
+# [11.1.0](https://github.com/nfl/eslint-config-nfl/compare/11.0.0...v11.1.0) (2016-12-05)
+
+
+### Bug Fixes
+
+* Disable no-useless-escape ([82426b](https://github.com/nfl/eslint-config/commit/82426b))
+
+
 <a name="11.0.0"></a>
 # [11.0.0](https://github.com/nfl/eslint-config/compare/10.0.0...v11.0.0) (2016-12-02)
 
