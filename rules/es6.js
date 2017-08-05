@@ -1,21 +1,19 @@
 module.exports = {
-    "env": {
-        "es6": true
+    env: {
+        es6: true
     },
-    "parser": "babel-eslint",
-    "parserOptions": {
-        "ecmaVersion": 6,
-        "sourceType": "module",
-        "ecmaFeatures": {
-            "globalReturn": false,
-            "experimentalObjectRestSpread": true,
-            "jsx": true
+    parser: "babel-eslint",
+    parserOptions: {
+        ecmaVersion: 6,
+        sourceType: "module",
+        ecmaFeatures: {
+            globalReturn: false,
+            experimentalObjectRestSpread: true,
+            jsx: true
         }
     },
-    "plugins": [
-        "import"
-    ],
-    "rules": {
+    plugins: ["import"],
+    rules: {
         // enforces no braces where they can be omitted
         // http://eslint.org/docs/rules/arrow-body-style
         "arrow-body-style": 0,
@@ -23,10 +21,13 @@ module.exports = {
         "arrow-parens": 0,
         // require space before/after arrow function"s arrow
         // http://eslint.org/docs/rules/arrow-spacing
-        "arrow-spacing": [2, {
-            "before": true,
-            "after": true
-        }],
+        "arrow-spacing": [
+            2,
+            {
+                before: true,
+                after: true
+            }
+        ],
         // require trailing commas in multiline object literals
         "comma-dangle": [2, "never"],
         // verify super() callings in constructors
@@ -37,9 +38,12 @@ module.exports = {
         "no-class-assign": 0,
         // disallow arrow functions where they could be confused with comparisons
         // http://eslint.org/docs/rules/no-confusing-arrow
-        "no-confusing-arrow": [2, {
-            "allowParens": true,
-        }],
+        "no-confusing-arrow": [
+            2,
+            {
+                allowParens: true
+            }
+        ],
         // disallow modifying variables that are declared using const
         "no-const-assign": 2,
         // disallow duplicate class members
@@ -90,15 +94,18 @@ module.exports = {
         "template-curly-spacing": [2, "never"],
         // enforce spacing around the * in yield* expressions
         // http://eslint.org/docs/rules/yield-star-spacing
-        "yield-star-spacing": [2, {"before": false, "after": true}],
+        "yield-star-spacing": [2, {before: false, after: true}],
         // disallow invalid exports, e.g. multiple defaults
         // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/export.md
         "import/export": 2,
         // ensure imports point to files/modules that can be resolved
         // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-unresolved.md
-        "import/no-unresolved": [2, {
-            "commonjs": true
-        }],
+        "import/no-unresolved": [
+            2,
+            {
+                commonjs: true
+            }
+        ],
 
         "import/named": 2,
         "import/default": 2,
@@ -109,27 +116,20 @@ module.exports = {
         "import/no-named-as-default-member": 0,
         "import/no-errors": [0, "include-messages"]
     },
-    "settings": {
-        "import/ignore": [
-            "node_modules",
-            ".(scss|less|css)$",
-            ".[^js(x)?]+$"
-        ],
+    settings: {
+        "import/ignore": ["node_modules", ".(scss|less|css)$", ".[^js(x)?]+$"],
         "import/parser": "babel-eslint",
         "import/resolve": {
-            "extensions": [
-                ".js",
-                ".json"
-            ],
+            extensions: [".js", ".json"],
 
-            "moduleDirectory": [
+            moduleDirectory: [
                 "node_modules",
                 "node_modules/@nfl/gridiron/node_modules",
                 "."
             ]
         },
         "import/resolver": {
-            "node": true
+            node: true
         }
     }
 };
