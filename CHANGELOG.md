@@ -1,3 +1,14 @@
+<a name="12.0.0"></a>
+# [12.0.0](https://github.com/nfl/eslint-config-nfl/compare/11.1.0...12.0.0) (2017-08-08)
+
+
+### Features
+
+* **eslint-jsx-a11y:** Upgrade eslint-jsx-a11y rules ([ae58fc3](https://github.com/nfl/eslint-config-nfl/commit/ae58fc3))
+* **eslint-plugin-jsx-a11y:** Upgrade eslint and eslint-plugin-jsx-a11y ([9857eb2](https://github.com/nfl/eslint-config-nfl/commit/9857eb2))
+
+
+
 <a name="11.1.0"></a>
 # [11.1.0](https://github.com/nfl/eslint-config-nfl/compare/11.0.0...v11.1.0) (2016-12-05)
 
